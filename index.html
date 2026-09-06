@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Question and Answer Template</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,8 +11,8 @@
   <body class="bg-light">
     <main class="container py-5">
       <header class="mb-4 text-center">
-        <h1 class="display-5 fw-bold">Your Title Here</h1>
-        <p class="lead text-secondary">A simple question and answer template</p>
+        <h1 class="display-5 fw-bold">Roni Kokkonen</h1>
+        <p class="lead text-secondary">Week 2 assignment</p>
       </header>
 
       <div class="row g-4">
@@ -21,11 +20,13 @@
           <section class="card h-100 shadow-sm">
             <div class="card-body">
               <h2 class="h4 card-title">Question 1</h2>
-              <p class="card-text">Write your first question here.</p>
+              <p class="card-text">Explain what is serverless architecture?</p>
               <hr />
               <h3 class="h5">Answer</h3>
               <p class="card-text text-secondary">
-                Write the answer to the first question here.
+                Serverless architecture is a model where the developer can focus
+                purely on the application while the server is managed by a cloud
+                service provider
               </p>
             </div>
           </section>
@@ -35,11 +36,59 @@
           <section class="card h-100 shadow-sm">
             <div class="card-body">
               <h2 class="h4 card-title">Question 2</h2>
-              <p class="card-text">Write your second question here.</p>
+              <p class="card-text">
+                When it is more feasible solution to use application containers
+                (app virtualization) than full OS virtualization to provide
+                networked services?
+              </p>
               <hr />
               <h3 class="h5">Answer</h3>
               <p class="card-text text-secondary">
-                Write the answer to the second question here.
+                Containers are the feasible solution when you need smaller, more
+                lightweight solution instead of a whole operating system.
+                Several web services can run in separate containers on one host,
+                sharing the host kernel while remaining isolated.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <section class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h2 class="h4 card-title">Question 3</h2>
+              <p class="card-text">
+                List some information security risks when using third party (for
+                example Docker) containers?
+              </p>
+              <hr />
+              <h3 class="h5">Answer</h3>
+              <p class="card-text text-secondary">
+                Risks include vulnerable or malicious images, outdated packages,
+                leaked secrets, exposed ports, excessive privileges, host
+                access, and attacks through untrusted dependencies.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <section class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h2 class="h4 card-title">Question 4</h2>
+              <p class="card-text">
+                List requirements and features to be considered when estimating
+                Amazon EC2 instance or Azure virtual machine deployment costs
+                (check the pricing guides)
+              </p>
+              <hr />
+              <h3 class="h5">Answer</h3>
+              <p class="card-text text-secondary">
+                Things to consider when estimating Azure virtual machine
+                deployment price include: VM size, vCPUs, RAM, workload,
+                operating system, runtime, storage, backups, data transfer,
+                region, and discounts such as reserved instances or savings
+                plans.
               </p>
             </div>
           </section>
