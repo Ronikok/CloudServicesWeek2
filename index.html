@@ -7,93 +7,287 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <title>Roni Kokkonen - Cloud Services</title>
+    <style>
+      .documentation-card {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .documentation-image {
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+        background-color: #f8f9fa;
+      }
+
+      .documentation-caption {
+        flex: 1;
+      }
+    </style>
   </head>
   <body class="bg-light">
     <main class="container py-5">
       <header class="mb-4 text-center">
         <h1 class="display-5 fw-bold">Roni Kokkonen</h1>
-        <p class="lead text-secondary">Week 2 assignment</p>
+        <p class="lead text-secondary">Cloud Services assignments</p>
+        <p>
+          GitHub repo used for this project:
+          <a href="https://github.com/ronikokkonen/cloud-services"
+            >https://github.com/ronikokkonen/cloud-services</a
+          >
+        </p>
       </header>
 
-      <div class="row g-4">
-        <div class="col-12 col-lg-6">
-          <section class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h2 class="h4 card-title">Question 1</h2>
-              <p class="card-text">Explain what is serverless architecture?</p>
-              <hr />
-              <h3 class="h5">Answer</h3>
-              <p class="card-text text-secondary">
-                Serverless architecture is a model where the developer can focus
-                purely on the application while the server is managed by a cloud
-                service provider.
-              </p>
-            </div>
-          </section>
-        </div>
+      <section class="week-section mb-5" aria-labelledby="week-2-heading">
+        <h2 id="week-2-heading" class="h3 mb-4">Week 2</h2>
+        <div class="row g-4">
+          <div class="col-12 col-lg-6">
+            <section class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4 card-title">Question 1</h2>
+                <p class="card-text">
+                  Explain what is serverless architecture?
+                </p>
+                <hr />
+                <h3 class="h5">Answer</h3>
+                <p class="card-text text-secondary">
+                  Serverless architecture is a model where the developer can
+                  focus purely on the application while the server is managed by
+                  a cloud service provider.
+                </p>
+              </div>
+            </section>
+          </div>
 
-        <div class="col-12 col-lg-6">
-          <section class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h2 class="h4 card-title">Question 2</h2>
-              <p class="card-text">
-                When it is more feasible solution to use application containers
-                (app virtualization) than full OS virtualization to provide
-                networked services?
-              </p>
-              <hr />
-              <h3 class="h5">Answer</h3>
-              <p class="card-text text-secondary">
-                Containers are the feasible solution when you need smaller, more
-                lightweight solution instead of a whole operating system.
-                Several web services can run in separate containers on one host,
-                sharing the host kernel while remaining isolated.
-              </p>
-            </div>
-          </section>
-        </div>
+          <div class="col-12 col-lg-6">
+            <section class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4 card-title">Question 2</h2>
+                <p class="card-text">
+                  When it is more feasible solution to use application
+                  containers (app virtualization) than full OS virtualization to
+                  provide networked services?
+                </p>
+                <hr />
+                <h3 class="h5">Answer</h3>
+                <p class="card-text text-secondary">
+                  Containers are the feasible solution when you need smaller,
+                  more lightweight solution instead of a whole operating system.
+                  Several web services can run in separate containers on one
+                  host, sharing the host kernel while remaining isolated.
+                </p>
+              </div>
+            </section>
+          </div>
 
-        <div class="col-12 col-lg-6">
-          <section class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h2 class="h4 card-title">Question 3</h2>
-              <p class="card-text">
-                List some information security risks when using third party (for
-                example Docker) containers?
-              </p>
-              <hr />
-              <h3 class="h5">Answer</h3>
-              <p class="card-text text-secondary">
-                Risks include vulnerable or malicious images, outdated packages,
-                leaked secrets, exposed ports, excessive privileges, host
-                access, and attacks through untrusted dependencies.
-              </p>
-            </div>
-          </section>
-        </div>
+          <div class="col-12 col-lg-6">
+            <section class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4 card-title">Question 3</h2>
+                <p class="card-text">
+                  List some information security risks when using third party
+                  (for example Docker) containers?
+                </p>
+                <hr />
+                <h3 class="h5">Answer</h3>
+                <p class="card-text text-secondary">
+                  Risks include vulnerable or malicious images, outdated
+                  packages, leaked secrets, exposed ports, excessive privileges,
+                  host access, and attacks through untrusted dependencies.
+                </p>
+              </div>
+            </section>
+          </div>
 
-        <div class="col-12 col-lg-6">
-          <section class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h2 class="h4 card-title">Question 4</h2>
-              <p class="card-text">
-                List requirements and features to be considered when estimating
-                Amazon EC2 instance or Azure virtual machine deployment costs
-                (check the pricing guides)
-              </p>
-              <hr />
-              <h3 class="h5">Answer</h3>
-              <p class="card-text text-secondary">
-                Things to consider when estimating EC2 or Azure virtual machine
-                deployment price include: VM size, vCPUs, RAM, workload,
-                operating system, runtime, storage, backups, data transfer,
-                region, and discounts such as reserved instances or savings
-                plans.
-              </p>
-            </div>
-          </section>
+          <div class="col-12 col-lg-6">
+            <section class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4 card-title">Question 4</h2>
+                <p class="card-text">
+                  List requirements and features to be considered when
+                  estimating Amazon EC2 instance or Azure virtual machine
+                  deployment costs (check the pricing guides)
+                </p>
+                <hr />
+                <h3 class="h5">Answer</h3>
+                <p class="card-text text-secondary">
+                  Things to consider when estimating EC2 or Azure virtual
+                  machine deployment price include: VM size, vCPUs, RAM,
+                  workload, operating system, runtime, storage, backups, data
+                  transfer, region, and discounts such as reserved instances or
+                  savings plans.
+                </p>
+              </div>
+            </section>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section class="week-section mb-5" aria-labelledby="week-3-heading">
+        <h2 id="week-3-heading" class="h3 mb-4">Week 3</h2>
+        <div class="row g-4">
+          <div class="col-12 col-lg-6">
+            <section class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4 card-title">Question 1</h2>
+                <p class="card-text">
+                  Describe reasons why so many (most?) companies are using cloud
+                  based email and calendar services
+                </p>
+                <hr />
+                <h3 class="h5">Answer</h3>
+                <p class="card-text text-secondary">
+                  Cloud based calendar and email services can be accessed
+                  anywhere at any time. A cloud based calendar lets employees
+                  easily schedule meetings and events, and share them with
+                  eachother. Cloud based services are also often more secure
+                  than alternative solutions.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <section class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4 card-title">Question 2</h2>
+                <p class="card-text">
+                  Describe reasons, why many IoT devices (internet connected
+                  home appliances, Smart-TVs and such) are using Google's
+                  8.8.8.8 or some other public DNS resolvers?
+                </p>
+                <hr />
+                <h3 class="h5">Answer</h3>
+                <p class="card-text text-secondary">
+                  Many IoT devices use public DNS resolvers like Google's
+                  8.8.8.8 because of their high reliability, performance and
+                  security. Local DNS servers are harder to maintain and may be
+                  less reliable, whereas public DNS resolvers are maintained by
+                  large organizations with enough resources to ensure uptime and
+                  security.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <section class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4 card-title">Question 3</h2>
+                <p class="card-text">
+                  Your thoughts about when to maintain your own web server and
+                  when to use SaaS/PaaS/IaaS to provide web services?
+                </p>
+                <hr />
+                <h3 class="h5">Answer</h3>
+                <p class="card-text text-secondary">
+                  Maintaining your own web server is a good option when you want
+                  full control over the server or need custom configurations.
+                  Using SaaS/PaaS/IaaS is better when want to reduce maintanance
+                  and increase scalability. SaaS for ready-made applications,
+                  PaaS for custom applications without managing infrastructure,
+                  and IaaS for more control over virtual machines and
+                  networking.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <section class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4 card-title">Question 4</h2>
+                <p class="card-text">
+                  What would a mid-size company store to the Amazon Glacier?
+                  What not? Why? What other large cloud backup or mass storage
+                  providers are there?
+                </p>
+                <hr />
+                <h3 class="h5">Answer</h3>
+                <p class="card-text text-secondary">
+                  A mid sized company would use amazon glacier for backups and
+                  data archiving purposes. Mainly for long-term storage of data
+                  that doesnt need to be accessed often. On the other hand,
+                  frequently accessed data would not be stored in amazon glacier
+                  because of its slow access times. Other large cloud backup or
+                  mass storage providers include Azure Blob Storage, Google
+                  Cloud Storage and Backblaze B2.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+        <section
+          class="week-documentation mt-5 ms-3 ps-4 border-start border-2"
+          aria-labelledby="week-3-documentation-heading"
+        >
+          <h3 id="week-3-documentation-heading" class="h4 mb-1">
+            Documentation
+          </h3>
+          <p class="small text-secondary mb-4">Week 3 documentation</p>
+          <div class="row g-4">
+            <div class="col-12 col-md-6">
+              <figure class="card h-100 shadow-sm mb-0 documentation-card">
+                <img
+                  src="https://a3s.fi/swift/v1/test%20picture/AllasInCSC.png"
+                  class="card-img-top documentation-image"
+                  alt="Documentation image 1"
+                />
+                <figcaption
+                  class="card-body text-secondary documentation-caption"
+                >
+                  Added Allas to my CSC project.
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <figure class="card h-100 shadow-sm mb-0 documentation-card">
+                <img
+                  src="https://a3s.fi/swift/v1/test%20picture/cscAllasBucket.png"
+                  class="card-img-top documentation-image"
+                  alt="Documentation image 2"
+                />
+                <figcaption
+                  class="card-body text-secondary documentation-caption"
+                >
+                  Created a bucket in Allas and uploaded pictures to it.
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <figure class="card h-100 shadow-sm mb-0 documentation-card">
+                <img
+                  src="https://a3s.fi/swift/v1/test%20picture/imgCard.png"
+                  class="card-img-top documentation-image"
+                  alt="Documentation image 3"
+                />
+                <figcaption
+                  class="card-body text-secondary documentation-caption"
+                >
+                  Added the necessary code to my index.html file.
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <figure class="card h-100 shadow-sm mb-0 documentation-card">
+                <img
+                  src="https://a3s.fi/swift/v1/test%20picture/thumbsUpEmoji.png"
+                  class="card-img-top documentation-image"
+                  alt="Documentation image 4"
+                />
+                <figcaption
+                  class="card-body text-secondary documentation-caption"
+                >
+                  IDK if this documentation is even needed but here you go.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
   </body>
 </html>
